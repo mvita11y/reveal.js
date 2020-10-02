@@ -14,12 +14,528 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
 	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+		<div class="theme-font-montserrat theme-color-black-blue" style="width: 100%; height: 100%;">
+    <div class="reveal">
+        <div class="slides">
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 66.3056px; top: 140px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Regions Desktop Accessibility Audit</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-191554" style="height: auto; width: 600px; left: 180px; top: 427.819px;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p><a href="https://www.regions.com/small-business" target="_blank">https://www.regions.com/small-business</a></p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Technology Used</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>PC Laptop</p>
+
+                            <p>Chrome Browser</p>
+
+                            <p>Deque Axe-Core</p>
+
+                            <p>NVDA</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Issue #1</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>&nbsp;Text that does not meet the large-scale requirement has a color contrast ratio lower than 4.5:1.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="image" data-name="image-e1dc4f" style="width: 806.4px; height: 79.1133px; left: 58.9526px; top: 45.7785px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 10;"><img alt="" style="" data-natural-width="581" data-natural-height="57" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7783891/color_contrast.PNG"></div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" data-name="image-5fabc3" style="width: 806.4px; height: 423.458px; left: 58.9526px; top: 147.194px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 11;"><img alt="" style="" data-natural-width="617" data-natural-height="324" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7783895/color_contrast_focus.PNG"></div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-157d5c" style="height: auto; width: 600px; left: 160px; top: 572px;">
+                        <div class="sl-block-content" style="z-index: 12;" dir="ui">
+                            <p>Large-scale text must have a contrast ratio of at least 3:1</p>
+
+                            <p>Large-scale text is 14 pt and bold or 18 pt</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Replicate Issue</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <ol>
+                                <li>Launch Chrome</li>
+                                <li>Visit <a href="https://www.regions.com/small-business" target="_blank">https://www.regions.com/small-business</a>
+                                </li>
+                                <li>Inspect Page</li>
+                                <li>Run Accessibility Audit within Lighthouse (axe-core)</li>
+                                <li>Identify whether failed text meets large-scale requirement by inspecting font size.</li>
+                            </ol>
+
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 73px; top: 150.5px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2 style="color:rgb(255, 255, 255)">Low Impact, Low Priority</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 337px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Low user impact, however, color contrast is a highly visible WCAG failure (easily detectable with automated checkers and by general public with lack of a11y knowledge)</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 76.5px; top: 113px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Possible Solutions</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 307.273px; left: 80px; top: 260px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <ul>
+                                <li>Increase color contrast to a minimum of 4.5:1 for all text. (Large scale exemptions pose difficulties as noted above)</li>
+                                <li>Add text-shadow to text that does not pass.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" data-name="image-b5e087" style="width: 468.43px; height: 128.163px; left: 456.695px; top: 280px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 12;"><img alt="" style="" data-natural-width="625" data-natural-height="171" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7783911/a-textshadow.PNG"></div>
+                    </div>
+                    <div class="sl-block" data-block-type="image" data-name="image-e35935" style="width: 468.43px; height: 103.48px; left: 456.695px; top: 490px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 13;"><img alt="" style="" data-natural-width="507" data-natural-height="112" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7783915/woshadow.PNG"></div>
+                    </div>
+                </section>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Issue #2</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Text that is visually styled to look like a heading is not marked up as a heading</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="image" data-name="image-fd2809" style="width: 830.654px; height: 87.3179px; left: 80px; top: 306.341px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 10;"><img alt="" style="" data-natural-width="1465" data-natural-height="154" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7783934/headings.PNG"></div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Replicate Issue</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 80px; top: 381px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Inspect element in the DOM.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Low Impact, High Priority</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 383px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>The lack of heading structure for this specific component will have a minimal adverse effect for screen reader users. However, this issue is cause &nbsp;for global concern within the stylesheet.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 73px; top: 98.4883px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Solution</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="code" data-name="code-a3ce91" style="width: 692.497px; height: 44.19px; left: 119.615px; top: 338.955px;">
+                        <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 11;">
+                            <pre style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">&lt;div class="nnm--title"&gt;Investments, Annuities and Insurance Products&lt;/div&gt;</code></pre>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="code" data-name="code-5d00b3" style="width: 688.672px; height: 37.3885px; left: 113.241px; top: 522.611px;">
+                        <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                            <pre style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">&lt;h2 class="nnm--title"&gt;Investments, Annuities and Insurance Products&lt;/h2&gt;</code></pre>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-05e118" style="height: auto; width: 600px; left: 165.863px; top: 262.312px;">
+                        <div class="sl-block-content" style="z-index: 13;">
+                            <h3>Current Code</h3>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-6a095c" style="height: auto; width: 600px; left: 165.863px; top: 455.528px;">
+                        <div class="sl-block-content" style="z-index: 14;">
+                            <h3>Recommended Code</h3>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Issue #3</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Responsive hamburger menu button is missing label and it's state/role is not revealed to AT users</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="image" data-name="image-2b28e9" style="width: 806.4px; height: 121.21px; left: 76.8px; top: 289.395px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 10;"><img alt="" data-natural-width="1610" data-natural-height="242" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7786239/Screen_Shot_2020-10-02_at_8.57.01_AM.png"></div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Replicate Issue</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <ol>
+                                <li>Increase browser magnification until the pages reflows (200%)</li>
+                                <li>Inspect element (hamburger) in the DOM</li>
+                                <li>Reveal the accessibility tree</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>High Impact, High Priority</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 383px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Without a programmatic label, AT users encounter the element as an unnamed link. It's purpose, role (button) and expanded/collapsed states are not understood by AT users.&nbsp;</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Solution</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Provide a label and follow the ARIA role, state, and properties as outlined in the navigation menu button pattern.</p>
+
+                            <p><a href="https://www.w3.org/TR/wai-aria-practices-1.1/#menubutton" target="_blank">https://www.w3.org/TR/wai-aria-practices-1.1/#menubutton</a></p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Issue #4</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Keyboard-only users are unable to close out of the hamburger menu at 200% magnification without reversing navigation (Shift + TAB)</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="image" data-name="image-307102" style="width: 806.4px; height: 308.87px; left: 76.8px; top: 195.565px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 10;"><img alt="" data-natural-width="966" data-natural-height="370" style="" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7786198/Screen_Shot_2020-10-02_at_8.42.55_AM.png"></div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="video" data-name="video-0b9f2b" style="min-width: 30px; min-height: 30px; width: 575px; height: 360px; left: 192.5px; top: 170px;">
+                        <div class="sl-block-content" style="z-index: 10;" data-media-id="7786199" data-video-thumb="https://s3.amazonaws.com/media-p.slid.es/videos/780711/FOgQyllL/focus_thumb_00001.jpg"><video playsinline="" controls="controls" data-paused-by-reveal="" poster="https://s3.amazonaws.com/media-p.slid.es/videos/780711/FOgQyllL/focus_thumb_00001.jpg" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/videos/780711/FOgQyllL/focus.mp4"></video></div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Replicate Issue</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <ol>
+                                <li style="color:rgb(255, 255, 255)">Increase browser magnification until the page reflows (200%)</li>
+                                <li style="color:rgb(255, 255, 255)">TAB through hamburger menu</li>
+                                <li style="color:rgb(255, 255, 255)">Attempt to close menu with Esc key</li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>High Impact, High Priority</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 335.945px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Excessive keyboard navigation can cause pain or fatigue. Two-key stroke of SHIFT + TAB can be particularly difficult.&nbsp;</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Solution</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 381px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Menu closes with ESC key.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Issue #5</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>At 200% magnification, assistive technology users are not alerted of the role and state of the expandable links.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="image" data-name="image-eb027d" style="width: 806.4px; height: 46.9705px; left: 76.8px; top: 326.515px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 10;"><img alt="" style="" data-natural-width="1837" data-natural-height="107" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7784241/snip.PNG"></div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Replicate Issue</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <ul>
+                                <li style="color:rgb(255, 255, 255)">Increase browser magnification until the pages reflows (200%)</li>
+                                <li style="color:rgb(255, 255, 255)">Inspect element (hamburger) in the DOM</li>
+                                <li style="color:rgb(255, 255, 255)">Reveal the accessibility tree</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>High Impact, High Priority</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 383px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Screen reader users simply announce the elements as links. They are not alerted of the role or state of the element.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 266px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2>Possible Solutions</h2>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" data-name="text-361038" style="height: auto; width: 600px; left: 180px; top: 70px;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <h3>Details Element</h3>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-c7a2c3" style="height: auto; width: 600px; left: 180px; top: 144px;">
+                        <div class="sl-block-content" style="z-index: 12;">
+                            <p>The HTML Details Element (&lt;details&gt;) creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state. A summary or label can be provided using the &lt;summary&gt; element.</p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-583eb7" style="height: auto; width: 600px; left: 180px; top: 400.5px;">
+                        <div class="sl-block-content" style="z-index: 13;">
+                            <details>
+                                <summary>Banking</summary>
+                                <ul class="regions-hero-links-list">
+                                    <li>
+                                        <a href="/small-business/business-checking" target="_top">Business Checking</a>
+                                    </li>
+                                    <li>
+                                        <a href="/small-business/business-saving" target="_top">Business Savings</a>
+                                    </li>
+                                    <li>
+                                        <a href="/small-business/business-saving" target="_top">Business CDs</a>
+                                    </li>
+                                    <li>
+                                        <a href="/small_business/bus_checkcard.rf" target="_top">Business CheckCard</a>
+                                    </li>
+                                    <li>
+                                        <a href="/small_business/retirement_services.rf" target="_top">Retirement</a>
+                                    </li>
+                                    <li>
+                                        <a href="/digital-banking/online-banking-business-services" target="_top">Online Business Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="/promo/priority-banking-for-business" target="_top">Priority Banking</a>
+                                    </li>
+                                </ul>
+                            </details>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 66.8015px; top: 51.3202px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h3>ARIA Pattern for Disclosure</h3>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 437.304px; left: 0px; top: 140px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <h3><span style="font-size:28.5px">Keyboard Interaction</span></h3>
+
+                            <ul>
+                                <li>
+                                    <p style="color:rgb(0, 0, 0); font-size:medium; text-align:start"><span style="font-size:1.4em"><span style="color:#FFFFFF">When the disclosure control has focus:</span></span></p>
+
+                                    <ul>
+                                        <li><span style="font-size:0.7em">Enter: activates the disclosure control and toggles the visibility of the disclosure content.</span></li>
+                                        <li><span style="font-size:0.7em">Space: activates the disclosure control and toggles the visibility of the disclosure content.</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-55d202" style="height: auto; width: 456.802px; left: 470.302px; top: 140px;">
+                        <div class="sl-block-content" style="z-index: 12;">
+                            <h3><span style="font-size:0.7em"><span style="color:rgb(255, 255, 255)">WAI-ARIA </span>Requirements</span></h3>
+
+                            <ul style="color:rgb(0, 0, 0); font-size:medium">
+                                <li>
+                                    <p><span style="font-size:1.4em"><span style="color:#FFFFFF">The element that shows and hides the content has role</span> <a href="https://www.w3.org/TR/wai-aria-1.1/#button" target="_blank">button</a>.</span></p>
+                                </li>
+                                <li>
+                                    <p><span style="font-size:1.4em"><span style="color:#FFFFFF">When the content is visible, the element with role button has </span><a href="https://www.w3.org/TR/wai-aria-1.1/#aria-expanded" target="_blank">aria-expanded</a> <span style="color:#FFFFFF">set to true. When the content area is hidden, it is set to false.</span></span></p>
+                                </li>
+                                <li>
+                                    <p><span style="font-size:1.4em"><span style="color:#FFFFFF">Optionally, the element with role button has a value specified for</span> <a href="https://www.w3.org/TR/wai-aria-1.1/#aria-controls" target="_blank">aria-controls</a> <span style="color:#FFFFFF">that refers to the element that contains all the content that is shown or hidden.</span></span></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" data-name="text-0fa2fb" style="height: auto; width: 600px; left: 160px; top: 613.508px;">
+                        <div class="sl-block-content" style="z-index: 13;">
+                            <p><a href="https://www.w3.org/TR/wai-aria-practices-1.1/#disclosure" target="_blank">https://www.w3.org/TR/wai-aria-practices-1.1/#disclosure</a></p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="stack">
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Issue #6</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 286px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>The symbols indicating that links are expandable do not have sufficient color contrast.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="image" data-name="image-eb027d" style="width: 806.4px; height: 46.9705px; left: 76.8px; top: 326.515px; min-width: 1px; min-height: 1px;">
+                        <div class="sl-block-content" style="z-index: 10;"><img alt="" style="" data-natural-width="1837" data-natural-height="107" data-lazy-loaded="" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/780711/images/7784241/snip.PNG"></div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Replicate Issue</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 370.486px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Use a color contrast tool to reveal the color contrast failure.</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2 style="color:rgb(255, 255, 255)">Moderate Impact, &nbsp;Low Priority</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 77px; top: 337px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Unlike text, users are unable to change the color of background images. Visual users may be unaware that the elements have expanded/collapsed sates and may visually perceive the elements simply as links.&nbsp;</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text" style="width: 807px; left: 76.5px; top: 43px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1>Solution</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text" style="width: 354.441px; left: 302.78px; top: 179.056px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <p>Darken the background color of the pseudo element.</p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="code" data-name="code-3d4128" style="width: 658.007px; height: 300px; left: 150.997px; top: 318.352px;">
+                        <div class="sl-block-content notranslate" data-highlight-theme="monokai" data-code-frame="none" style="z-index: 12;">
+                            <pre style="font-size: 16px; line-height: 19px;"><code data-line-numbers="">regions-accordion-title:after, .regions-accordion-title:before {
+    content: "";
+    background: #131212;
+    position: absolute;
+    top: 50%;
+</code></pre>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </div>
+</div>
 
 		<script src="dist/reveal.js"></script>
 		<script src="plugin/notes/notes.js"></script>
